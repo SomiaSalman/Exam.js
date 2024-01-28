@@ -1,0 +1,92 @@
+
+ul{
+    text-decoration: none;
+    list-style: none;
+
+}
+li{
+    margin-bottom: 10px;
+
+}
+a{
+    text-decoration: none;
+        color: #fff !important;
+        font-size: 20px;
+
+}
+ i{
+    cursor: pointer;
+}
+.sideBar{
+    position: fixed;
+    z-index: 999999;
+    background-color: aqua;
+    display: flex;
+}
+.blackBar{
+    display: none;
+   
+}
+.whiteBar{
+    width: 4rem !important;
+    height: 100vh !important;
+    
+}
+.blackBar li{
+    margin-bottom: 50px;
+}
+/* /////////////////////search//////////// */
+#Search{
+    display: none;
+}
+.meal{
+    overflow: hidden;
+
+}
+.meal img{
+    overflow: hidden;
+}
+.meal-layer{
+    /* content: ''; */
+/* position: absolute; */
+background-color: #fff;
+opacity: 0;
+top: 100%;
+bottom: 0;
+left: 0;
+right: 0;
+width: 99%;
+height: 100%;
+z-index: 9999;
+transition: all .5s;
+cursor: pointer;
+}
+.meal:hover .meal-layer{
+    top: 0;
+    opacity: .7;
+    
+}
+.integ p{
+    height: 95px !important;
+    padding: 10px;
+}
+/* ////////area/// */
+#area{
+    
+    color: #fff;
+}
+#ingredient{
+    color: #fff;
+}
+/* /////////////////////contact us //////////////////////////// */
+#yourInfo{
+    display: none;
+}
+#yourInfo .error{
+    display: none;
+}
+
+
+
+
+
